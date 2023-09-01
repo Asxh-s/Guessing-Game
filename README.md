@@ -1,3 +1,3 @@
-# Projects
-Just a repository for projects that I make
+# Guessing Game
+Just a repository for a guessing game!
 Website Link: https://pse-do.github.io/Projects/
