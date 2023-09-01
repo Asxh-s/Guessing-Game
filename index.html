@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            background-color: black;
+        }
+        #titleHeader {
+            font-family: Impact, Arial;
+            color: gold;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            background-color: gold;
+            outline-style: outset;
+            
+        } 
+        #userGuess {
+            border-radius: 10px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="images/question-mark.png">
+    <title>Number Guessing Game</title>
 </head>
 <body>
-    <h1>
+    <h1 id="titleHeader">
         Number Guessing Game!
     </h1>
     <form action="">
-        <label for="userGuess">Enter a number between 1-10:</label>
-        <input type="text" id="userGuess"><br>
-        <button id="sumbitBtn" type="button">Submit</button>
+        <label for="userGuess" id="userGuess" style="color: gold; font-family: Impact, Arial;">Enter a number between 1-10:</label>
+        <input style="background-color: gold;" type="text" id="userGuess"><br>
+        <button style="background-color: gold; font-family: Impact, Arial;"id="sumbitBtn" type="button">Submit</button>
     </form>
 
     <script src="index.js"></script>
