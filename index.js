@@ -6,7 +6,7 @@ var noGuesses = 1;
 submitBtn.onclick = function() {
     switch(true){
         case Number(userGuess.value) == randomNo:
-            alert(`Correct the number was ${randomNo}, and you got it in ${noGuesses} guesses!`);
+            alert(`Correct! The number was ${randomNo}, and you got it in ${noGuesses} guess(es)!`);
             location.reload(); // reloads the page!
             break;
         case userGuess.value == "" || userGuess.value === undefined:
