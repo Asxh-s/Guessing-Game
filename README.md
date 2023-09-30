@@ -1,3 +1,3 @@
 # Guessing Game
-Just a repository for a guessing game!
+Guessing game!
 Website Link: https://4sxhes.github.io/Guessing-Game/
